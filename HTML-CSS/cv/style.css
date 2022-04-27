@@ -1,0 +1,25 @@
+img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+body{
+    background-color: #ecf8f8;
+}
+hr{
+    border-style: solid;
+    /* border-top-style:dotted;
+    border-width: 5px;
+    width:10%;
+    border-color: grey; */
+    opacity: 0.3;
+}
+h1,h3{
+    color: #66bfbf;
+}
+#form_label{
+    padding: 10px 0;
+}
+label{
+    padding-right: 5px;
+}
