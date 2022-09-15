@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta class="text-content" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./mail.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="main">
+        <h2 >Contact Form</h2>
+        <div class="container">
+            <div class="container-left">
+                <h3>Get Contact</h3>
+                <form action="" method="post">
+                    <input type="text" class="text-content" name="Name" placeholder="Your Full Name">
+                    <input type="email" id="email" class="text-content" name="Email" placeholder="Your Email">
+                    <input type="text" id="subject" class="text-content" name="Subject" placeholder="Subject">
+                    <textarea class="text-message" id="message" name="message" cols="30" rows="7" placeholder="How can we help you?" required></textarea>
+                    <button type="submit" class="button-submit">Send Message</button>
+                </form>
+            </div>
+            <div class="container-right">
+                <h3>Contact Us</h3>
+                <div class="content">
+                    <ul class="list-content">
+                        <li class="items">
+                           <i class="fa-solid fa-location-dot"></i>
+                           <strong>Adrress</strong>
+                           <p>200 West 5-71th Street ,Minami-Kamiiida,Nagoya City</p>
+                        </li>
+                        <li class="items">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <strong>Phone Number</strong>
+                            <p>080-9480-1992</p>
+                        </li>
+                        <li class="items">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <strong>Email</strong>
+                            <p>Meowv9@gmail.com</p>
+                        </li>
+                        <li class="items">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <a href="http://facebook.com">Follow me</a>
+                            <i class="fa-duotone fa-hand-back-point-left"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
